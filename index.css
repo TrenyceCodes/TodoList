@@ -1,0 +1,69 @@
+* {
+    background-color: #F0F8FF;
+}
+
+#todoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-left: 47%;
+    color: #2980B9;
+}
+
+#todoTitle {
+    color: #2980B9;
+}
+
+#todoInputAdd {
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+}
+
+#todoInput {
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+#todoInput::placeholder {
+    color: #ccc;
+}
+
+#addTodoButton {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: #87CEFA;
+    color: white;
+    font-size: 25px;
+}
+
+#todo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #1574d3;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 45%;
+    justify-content: center;
+}
+
+#checkBox {
+    margin-right: 20px;
+    background-color: #4CAF50;
+}
+
+#deleteButton {
+    background-color: #1E90FF;
+    border: none;
+    color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+}
